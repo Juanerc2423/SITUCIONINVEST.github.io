@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Situación 4 - Método Científico</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f1ea;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.contenedor{
+    width:100%;
+    max-width:1000px;
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+th{
+    background:#6d4c41;
+    color:white;
+    padding:15px;
+    font-size:18px;
+    text-align:center;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:18px;
+    vertical-align:top;
+    font-size:15px;
+    line-height:1.6;
+}
+
+td:first-child{
+    background:#efebe9;
+    font-weight:bold;
+    width:25%;
+}
+
+tr:hover{
+    background:#fafafa;
+    transition:0.3s;
+}
+
+/* Responsive */
+@media (max-width:700px){
+
+    table, thead, tbody, th, td, tr{
+        display:block;
+        width:100%;
+    }
+
+    thead{
+        display:none;
+    }
+
+    tr{
+        margin-bottom:20px;
+        border:1px solid #ddd;
+        border-radius:12px;
+        overflow:hidden;
+        background:white;
+    }
+
+    td{
+        border:none;
+        border-bottom:1px solid #eee;
+        position:relative;
+        padding:15px;
+    }
+
+    td:first-child{
+        background:#6d4c41;
+        color:white;
+        width:100%;
+        text-align:center;
+        font-size:16px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="contenedor">
+    <table>
+        <thead>
+            <tr>
+                <th>Etapa</th>
+                <th>Desarrollo</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Situación</td>
+                <td>
+                    En el salón de clases varios estudiantes empezaron a bostezar y sentirse cansados después del descanso.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Observación</td>
+                <td>
+                    Se observa que muchos estudiantes tienen sueño y poca concentración.<br><br>
+                    ¿Por qué los estudiantes tienen sueño en clase?
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hipótesis</td>
+                <td>
+                    • El salón está muy caliente y con poca ventilación.<br>
+                    • Los estudiantes comieron mucho en el descanso y eso les dio sueño.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Experimentación</td>
+                <td>
+                    El profesor abrió las ventanas y encendió el ventilador.<br><br>
+                    Además, comparó a estudiantes que comieron poco con otros que comieron bastante.<br><br>
+                    Después de unos minutos, se observó que el calor aumentaba el cansancio y que quienes comieron más tenían más sueño. Tremendo descubrimiento científico: devorarse media tienda sí pasa factura.
+                </td>
+            </tr>
+
+            <tr>
+                <td>Conclusión</td>
+                <td>
+                    El calor y comer demasiado durante el descanso provocan sueño y falta de concentración en clase.
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
